@@ -17,10 +17,8 @@
         <section class="fap">
             <h3>FAQ</h3>
             <h3>O nas</h3>
-            <section class="profile">
-                <h3>Profil</h3>
-                <img src="/img/placeholder_profile.webp" alt="profile">
-            </section>
+            <h3>Profil</h3>
+            <img src="/img/placeholder_profile.webp" alt="profile">
         </section>
     </header>
     <section>

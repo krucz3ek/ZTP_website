@@ -3,6 +3,12 @@
     src: url(/fonts/TypeLightSans-KV84p.otf);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header{
     font-family: Type_light_Sans;
     height: 150px;
@@ -18,7 +24,7 @@ header{
     margin: 15px 20px 15px 25px
 }
 
-.profile img {
+.fap img {
     height: 50px;
     border-radius: 100px;
 }
@@ -34,14 +40,18 @@ header{
     /*center*/
 }
 
-.fap{
+.fap, .profile {
     float: right;
     width: 50%;
     background-color: purple;
     height: 50px;
     border-radius: 0px 0px 15px 0px;
+    display: flex;
+    justify-content: flex-end;
+
+    /*kod sakoshi*/
 }
 
-.fap h3 {
-    
+.fap h3, .fap img {
+    margin: 15px 25px 15px 20px;
 }
